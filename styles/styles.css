@@ -2,6 +2,10 @@ main {
     max-width: 840px;
 }
 
+h1 {
+    color: #333;
+}
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -19,7 +23,10 @@ aside img {
 
 main img {
     width: 150px;
-    height: auto;   
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 p {padding: 0;}
