@@ -6,10 +6,6 @@
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-  }
 * {
     margin: 0;
     padding: 0;
@@ -37,7 +33,11 @@ nav, p, section, article {
 .hero {
     position: relative;
 }
-
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 h1 {
     position: absolute;
     top: 20px;
@@ -50,29 +50,8 @@ h1 {
 }
 article {
     position: absolute;
-    margin-top: 200px;
 }
-
 .hero article img {
     float: right;
-    width: 125px;   
-}
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-body { padding-bottom: 72px; }
-footer {
-  position: relative;
-  /* background: #0a2240; */
-  color: #fefefe;
-  text-align: left;
-  padding: 12px 0;
-  margin-top: 24px;
-}
-header, main, footer {
-  width: 840px;
-  margin: 0 auto;
+    width: 125px;
 }
