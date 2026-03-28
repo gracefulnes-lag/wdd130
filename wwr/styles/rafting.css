@@ -35,6 +35,7 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+    position: fixed
 }
 h1 {
     position: absolute;
