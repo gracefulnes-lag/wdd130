@@ -1,8 +1,6 @@
 :root {
     --primary-color: #055a05;
-    --second-color: #f4a261;
     --accent1-color: #264653;
-    --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -48,7 +46,7 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;
 }
-article {
+.hero article {
     position: absolute;
 }
 .hero article img {
