@@ -35,7 +35,11 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
-    position: fixed
+    position: 
+}
+.hero article img {
+    border-radius: 50%;
+    margin-left: 16px;
 }
 h1 {
     position: absolute;
