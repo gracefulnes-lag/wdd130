@@ -1,4 +1,43 @@
-/* Add these rules if missing */
+:root {
+    --primary-color: #05275a;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
 
 nav ul {
     list-style-type: none;
@@ -8,15 +47,30 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
-.socialmedia img {
-    width: 50px;
-    height: 50px;
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-/* Ensure hero overlays are styled as per requirements */
+header img {
+    width: 80px;
+    height: auto;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-align: center;
+    padding: 20px;
+}
+
 .hero {
     position: relative;
 }
@@ -53,4 +107,15 @@ h1 {
     width: 125px;
     margin: 0 0 10px 10px;
     border-radius: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.socialmedia img {
+    width: 50px;
+    height: 50px;
 }
